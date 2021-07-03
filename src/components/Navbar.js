@@ -7,6 +7,8 @@ import {
 } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 
+import { NavLink } from "react-router-dom";
+
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
@@ -27,16 +29,16 @@ const Navbar = () => {
           }>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <a href="#">about</a>
+              <NavLink to="/about">about</NavLink>
             </li>
             <li>
-              <a href="#">services</a>
+              <NavLink to="/service">services</NavLink>
             </li>
             <li>
-              <a href="#">contact</a>
+              <NavLink to="/contact">contact</NavLink>
             </li>
           </ul>
         </div>
@@ -53,7 +55,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
+                href="https://www.instagram.com/thapatechnical/"
                 target="_thapa">
                 <FaInstagramSquare className="instagram" />
               </a>
@@ -77,10 +79,10 @@ const Navbar = () => {
       </nav>
 
       {/* hero section  */}
-      <section className="hero-section">
+      {/* <section className="hero-section">
         <p>Welcome to </p>
         <h1>Thapa Technical</h1>
-      </section>
+      </section> */}
     </>
   );
 };
