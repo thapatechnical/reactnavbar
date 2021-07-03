@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <Navbar />
       <section className="hero-section">
-        <p>Welcome to </p>
+        <p>Subscribe to </p>
         <h1>Thapa Technical Home Page</h1>
       </section>
     </>
