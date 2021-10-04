@@ -8,7 +8,7 @@ const Home = () => {
       <Navbar />
       <section className="hero-section">
         <p>Subscribe to </p>
-        <h1>Thapa Technical Home Page</h1>
+        <h1>Nitya Technical Home Page</h1>
       </section>
     </>
   );
